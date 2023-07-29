@@ -3,8 +3,8 @@ import Age from './../src/age.js';
 describe('Age', () => {
 
   test('should correctly initialize the age class', () => {
-    const age = new Age(56);
-    expect(age).toEqual({ "age": 56 });
+    const earthAge = new Age(56);
+    expect(earthAge).toEqual({ "age": 56 });
   });
 
 });
