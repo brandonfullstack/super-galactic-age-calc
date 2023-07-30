@@ -18,4 +18,8 @@ export default class Age {
   getJupiterAge() {
     return this.age * 11.86;
   }
+
+  getYearsSinceBirthday(pastBirthday) {
+
+  }
 }

@@ -35,4 +35,10 @@ describe('Age', () => {
     });
   });
 
+  describe("getYearsSinceBirthday()", () => {
+    test("should return the correct number of years since a past birthday", () => {
+      const earthAge = new Age(56);
+      expect(earthAge.getYearsSinceBirthday(43)).toEqual({"Earth Years": 13, "Mercury Years": 3.12, "Venus Years": 8.06, "Mars Years": 24.439999999999998, "Jupiter Years": 154.18});
+    });
+  });
 });
