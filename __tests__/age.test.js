@@ -12,7 +12,13 @@ describe('Age', () => {
       const earthAge = new Age(56);
       expect(earthAge.getMercuryAge()).toEqual(13.44);
     });
+  });
 
+  describe("getVenusAge()", () => {
+    test("should return the correct Venus age for an Earth age of 56", () => {
+      const earthAge = new Age(56);
+      expect(earthAge.getVenusAge()).toEqual(34.72);
+    });
   });
 
 });
