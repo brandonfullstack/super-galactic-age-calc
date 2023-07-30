@@ -31,7 +31,7 @@ describe('Age', () => {
   describe("getJupiterAge()", () => {
     test("should return the correct Jupiter age for an Earth age of 56", () => {
       const earthAge = new Age(56);
-      expect(earthAge.getJupiterAge()).toEqual(644.16);
+      expect(earthAge.getJupiterAge()).toEqual(664.16);
     });
   });
 
