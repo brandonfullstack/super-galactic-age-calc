@@ -41,4 +41,11 @@ describe('Age', () => {
       expect(earthAge.getYearsSinceBirthday(43)).toEqual({"Earth Years": 13, "Mercury Years": 3.12, "Venus Years": 8.06, "Mars Years": 24.439999999999998, "Jupiter Years": 154.18});
     });
   });
+
+  describe("getYearsUntilBirthday()", () => {
+    test("should return the correct number of years until a future birthday", () => {
+      const earthAge = new Age(56);
+      expect(earthAge.getYearsUntilBirthday(61)).toEqual({"Earth Years": 5, "Mercury Years": 1.2, "Venus Years": 3.1, "Mars Years": 9.399999999999999, "Jupiter Years": 59.3});
+    });
+  });  
 });

@@ -28,4 +28,8 @@ export default class Age {
 
     return { "Earth Years": ageSincePastBday, "Mercury Years": mercuryAge, "Venus Years": venusAge, "Mars Years": marsAge, "Jupiter Years": jupiterAge };
   }
+
+  getYearsUntilBirthday(futureBirthday) {
+
+  }
 }
