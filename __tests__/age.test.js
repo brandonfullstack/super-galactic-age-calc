@@ -10,7 +10,7 @@ describe('Age', () => {
   describe("getMercuryAge()", () => {
     test("should return the correct Mercury age for an Earth age of 56", () => {
       const earthAge = new Age(56);
-      expect(earthAge.getMercuryAge()).toEqual(13.86);
+      expect(earthAge.getMercuryAge()).toEqual(13.44);
     });
 
   });

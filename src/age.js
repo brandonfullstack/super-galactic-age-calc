@@ -2,7 +2,8 @@ export default class Age {
   constructor(age) {
     this.age = age;
   }
-  getMercuryAge() {
 
+  getMercuryAge() {
+    return this.age * 0.24;
   }
 }
