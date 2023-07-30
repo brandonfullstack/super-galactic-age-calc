@@ -30,6 +30,12 @@ export default class Age {
   }
 
   getYearsUntilBirthday(futureBirthday) {
+    const ageUntilFutureBday = futureBirthday - this.age;
+    const mercuryAge = ageUntilFutureBday * 0.24;
+    const venusAge = ageUntilFutureBday * 0.62;
+    const marsAge = ageUntilFutureBday * 1.88;
+    const jupiterAge = ageUntilFutureBday * 11.86;
 
+    return { "Earth Years": ageUntilFutureBday, "Mercury Years": mercuryAge, "Venus Years": venusAge, "Mars Years": marsAge, "Jupiter Years": jupiterAge };
   }
 }
