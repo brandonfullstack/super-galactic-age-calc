@@ -10,4 +10,8 @@ export default class Age {
   getVenusAge() {
     return this.age * 0.62;
   }
+
+  getMarsAge() {
+
+  }
 }

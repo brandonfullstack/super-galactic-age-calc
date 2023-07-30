@@ -21,4 +21,11 @@ describe('Age', () => {
     });
   });
 
+  describe("getMarsAge()", () => {
+    test("should return the correct Mars age for an Earth age of 56", () => {
+      const earthAge = new Age(56);
+      expect(earthAge.getMarsAge()).toEqual(105.28);
+    });
+  });
+
 });
