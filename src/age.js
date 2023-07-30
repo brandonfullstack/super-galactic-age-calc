@@ -20,6 +20,12 @@ export default class Age {
   }
 
   getYearsSinceBirthday(pastBirthday) {
+    const ageSincePastBday = this.age - pastBirthday;
+    const mercuryAge = ageSincePastBday * 0.24;
+    const venusAge = ageSincePastBday * 0.62;
+    const marsAge = ageSincePastBday * 1.88;
+    const jupiterAge = ageSincePastBday * 11.86;
 
+    return { "Earth Years": ageSincePastBday, "Mercury Years": mercuryAge, "Venus Years": venusAge, "Mars Years": marsAge, "Jupiter Years": jupiterAge };
   }
 }
