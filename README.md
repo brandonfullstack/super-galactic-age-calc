@@ -9,6 +9,12 @@
 * _JavaScript_
 * _Git_
 * _Jest_
+* _HTML_
+* _CSS_
+* _npm_
+* _webpack_
+* _eslint_
+* _babel_
 
 ## Description
 
@@ -17,7 +23,9 @@ _An awesome starting point for an age calculator focusing on demonstrating profi
 ## Setup/Installation Requirements
 
 * _Copy project directory or clone repo from Github to your desktop_
-* _Run npm install_
+* _Run npm install to install all dependancies_
+* _Run npm run build to build the project using webpack_
+* _Run npm test to test with jest_
 
 ## Known Bugs
 
